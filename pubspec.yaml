@@ -1,0 +1,37 @@
+name: app_api
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=2.19.2 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  google_fonts: ^4.0.3
+  flutter_lints: ^2.0.0
+  dio: ^5.4.0
+  sqflite: ^2.2.6
+  shared_preferences: ^2.2.2
+  cupertino_icons: ^1.0.2
+  path_provider: ^2.0.14
+  path: ^1.8.2
+  image_picker: ^0.8.4+4
+  intl: ^0.19.0
+  file_picker: ^5.5.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/hlmobile.png
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/hlmobileicon.png"
